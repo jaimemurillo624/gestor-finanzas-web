@@ -1,3 +1,27 @@
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# Environment
 .env
+.env.local
+.env.*.local
+
+# Firebase
 backend/serviceAccountKey.json
-*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dist
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
