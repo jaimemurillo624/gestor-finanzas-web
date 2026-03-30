@@ -1,0 +1,216 @@
+/* ===== TEMA OSCURO ===== */
+
+/* Cuando data-bs-theme="dark" */
+[data-bs-theme="dark"] {
+  /* Variables de color */
+  --bs-body-bg: #1a1a1a;
+  --bs-body-color: #e0e0e0;
+  --bs-border-color: #333;
+  --bs-tertiary-bg: #2a2a2a;
+}
+
+/* Cartas en tema oscuro */
+[data-bs-theme="dark"] .card,
+[data-bs-theme="dark"] .form-card,
+[data-bs-theme="dark"] .manager-card,
+[data-bs-theme="dark"] .export-card,
+[data-bs-theme="dark"] .chart-card,
+[data-bs-theme="dark"] .transaction-form-container {
+  background-color: #2a2a2a !important;
+  border-color: #3a3a3a !important;
+  color: #e0e0e0 !important;
+}
+
+/* Inputs en tema oscuro */
+[data-bs-theme="dark"] .form-control,
+[data-bs-theme="dark"] .form-select {
+  background-color: #1a1a1a !important;
+  border-color: #444 !important;
+  color: #e0e0e0 !important;
+}
+
+[data-bs-theme="dark"] .form-control:focus,
+[data-bs-theme="dark"] .form-select:focus {
+  background-color: #2a2a2a !important;
+  border-color: #667eea !important;
+  color: #e0e0e0 !important;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2) !important;
+}
+
+/* Placeholders en tema oscuro */
+[data-bs-theme="dark"] .form-control::placeholder {
+  color: #888 !important;
+}
+
+/* Etiquetas en tema oscuro */
+[data-bs-theme="dark"] .form-label {
+  color: #b0b0b0 !important;
+}
+
+/* Alertas en tema oscuro */
+[data-bs-theme="dark"] .alert {
+  background-color: #2a2a2a !important;
+  border-color: #3a3a3a !important;
+}
+
+[data-bs-theme="dark"] .alert-danger {
+  color: #ff6b6b !important;
+  border-color: #5a2a2a !important;
+}
+
+[data-bs-theme="dark"] .alert-success {
+  color: #51cf66 !important;
+  border-color: #2a4a2a !important;
+}
+
+[data-bs-theme="dark"] .alert-info {
+  color: #74c0fc !important;
+  border-color: #1a3a5a !important;
+}
+
+/* Botones en tema oscuro */
+[data-bs-theme="dark"] .btn-outline-light {
+  color: #e0e0e0 !important;
+  border-color: #666 !important;
+}
+
+[data-bs-theme="dark"] .btn-outline-light:hover {
+  background-color: #e0e0e0 !important;
+  color: #1a1a1a !important;
+}
+
+/* Spinner en tema oscuro */
+[data-bs-theme="dark"] .spinner-border {
+  border-color: #3a3a3a !important;
+  border-right-color: #667eea !important;
+}
+
+/* Nav/tabs en tema oscuro */
+[data-bs-theme="dark"] .nav-tabs {
+  background: #2a2a2a !important;
+  border-color: #3a3a3a !important;
+}
+
+[data-bs-theme="dark"] .nav-link {
+  color: #888 !important;
+}
+
+[data-bs-theme="dark"] .nav-link:hover {
+  background-color: #3a3a3a !important;
+  color: #b0b0b0 !important;
+}
+
+[data-bs-theme="dark"] .nav-link.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  color: white !important;
+}
+
+/* Textos en tema oscuro */
+[data-bs-theme="dark"] h1,
+[data-bs-theme="dark"] h2,
+[data-bs-theme="dark"] h3,
+[data-bs-theme="dark"] h4,
+[data-bs-theme="dark"] h5,
+[data-bs-theme="dark"] h6 {
+  color: #e0e0e0 !important;
+}
+
+/* Links en tema oscuro */
+[data-bs-theme="dark"] a {
+  color: #74c0fc !important;
+}
+
+[data-bs-theme="dark"] a:hover {
+  color: #a5d8ff !important;
+}
+
+/* Bordes y separadores */
+[data-bs-theme="dark"] hr {
+  border-color: #3a3a3a !important;
+}
+
+/* Dropdowns en tema oscuro */
+[data-bs-theme="dark"] .dropdown-menu {
+  background-color: #2a2a2a !important;
+  border-color: #3a3a3a !important;
+}
+
+[data-bs-theme="dark"] .dropdown-item {
+  color: #e0e0e0 !important;
+}
+
+[data-bs-theme="dark"] .dropdown-item:hover,
+[data-bs-theme="dark"] .dropdown-item.active {
+  background-color: #3a3a3a !important;
+  color: #667eea !important;
+}
+
+/* Transacciones lista */
+[data-bs-theme="dark"] .transaction-item {
+  border-color: #3a3a3a !important;
+  color: #e0e0e0 !important;
+}
+
+[data-bs-theme="dark"] .transaction-item:hover {
+  background-color: #2a2a2a !important;
+}
+
+[data-bs-theme="dark"] .category-badge {
+  background-color: #3a3a3a !important;
+  color: #b0b0b0 !important;
+}
+
+/* Categorías */
+[data-bs-theme="dark"] .category-item {
+  background-color: #2a2a2a !important;
+  border-color: #3a3a3a !important;
+  color: #e0e0e0 !important;
+}
+
+[data-bs-theme="dark"] .category-item.predefined {
+  background-color: #1a1a1a !important;
+}
+
+/* Empty states */
+[data-bs-theme="dark"] .empty-state {
+  background-color: #2a2a2a !important;
+  color: #888 !important;
+}
+
+[data-bs-theme="dark"] .loading-state {
+  background-color: #2a2a2a !important;
+  color: #e0e0e0 !important;
+}
+
+/* Canvas backgrounds (gráficas) */
+[data-bs-theme="dark"] canvas {
+  filter: brightness(0.9);
+}
+
+/* Resumen cards */
+[data-bs-theme="dark"] .summary-card {
+  background-color: #2a2a2a !important;
+  border-color: #3a3a3a !important;
+}
+
+[data-bs-theme="dark"] .stat-card {
+  background-color: #2a2a2a !important;
+}
+
+/* Welcome card */
+[data-bs-theme="dark"] .welcome-card {
+  background-color: #2a2a2a !important;
+  color: #e0e0e0 !important;
+}
+
+[data-bs-theme="dark"] .welcome-card h1 {
+  color: #e0e0e0 !important;
+}
+
+[data-bs-theme="dark"] .welcome-card p {
+  color: #aaa !important;
+}
+
+[data-bs-theme="dark"] .features-list li {
+  color: #aaa !important;
+}
